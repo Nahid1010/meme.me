@@ -1,0 +1,12 @@
+* {
+    color: aqua;
+}
+
+#happy {
+    height: 100px;
+    width: auto;
+}
+
+.emoji {
+    list-style: square;
+}
