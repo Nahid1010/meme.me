@@ -13,4 +13,4 @@ As a USER, I want to be able to click on a meme/gif that fits my vibe/emotion
 ```
 
 
-[diagram](/Assets/mememe.png)
+![diagram](/Assets/mememe.png)
