@@ -10,3 +10,58 @@
 .emoji {
     list-style: square;
 }
+
+#heart {
+    color: grey;
+    font-size: 20px;
+  }
+  #heart.red {
+    color: rgb(0, 21, 255);
+  }
+  :root {
+    --content-size: 10rem;
+    --font-size: 8rem;
+ }
+    .animated {
+        animation: 10s linear;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: calc(0px - var(--content-size));
+    font-size: var(--font-size);
+    transform-origin: center;
+    }
+    .animated:after {
+        content: “:smile_cat:”;
+    }
+ @keyframes rollIn {
+        0% {
+            transform:translate(-2vw,50vh) rotate(0deg) rotateX(0deg); filter:blur(5px) hue-rotate(360deg); ;
+        }
+        25% {
+            transform: translate(25vw, calc(100vh - var(--content-size))) rotate(200deg) rotateX(0deg);filter:blur(0px) hue-rotate(210deg);font-size: var(--font-size);
+        }
+        100% {
+            transform: translate(calc(100vw + var(--content-size)), 40vh) rotate(800deg) ;filter:blur(1px) hue-rotate(3600 deg);
+        }
+    }
+    .rollIn {
+        -webkit-animation-name: rollIn;
+        animation-name: rollIn;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
