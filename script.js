@@ -31,7 +31,7 @@ function renderToScreen (memeData) {
     imgEl.src = memeData;
     imgEl.alt = "gif"; //to do ?add meme ?
     // append imgEl to display
-    displayEl.append (imgEl)
+    displayEl. insertAdjacentElement("afterbegin",imgEl)
 } 
 
 document.addEventListener("DOMContentLoaded", init);
