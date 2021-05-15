@@ -37,19 +37,3 @@ function renderToScreen (memeData) {
 document.addEventListener("DOMContentLoaded", init);
 // let url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=1&q=`;
 
-(function() {
-    const heart = document.getElementById(‘heart’);
-    heart.addEventListener(‘click’, function() {
-      heart.classList.toggle(‘red’);
-    });
-  })();
-  var animatedEl = document.querySelector(‘.animated’);
-         var playState = [“running”, “paused”];
-         var isPlaying = true;
-         // animation-play-state: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state
-         document.addEventListener(‘keydown’, () => {
-            isPlaying
-               ? animatedEl.style.animationPlayState = playState[1]
-               : animatedEl.style.animationPlayState = playState[0]
-            isPlaying = !isPlaying
-         })
