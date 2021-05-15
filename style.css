@@ -1,7 +1,68 @@
 * {
-    color: aqua;
+    color: rgb(0, 0, 0);
+    background-image: url(“https://www.teahub.io/photos/full/204-2043807_calm-cool-backgrounds.jpg”);
+    font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    margin: 100px;;
+    display: flex;
+    color:rgba(100, 0, 100, 0.377) ;
+    background-color:rgb(48, 1, 48) ;
+}
+
+h1{
+   color: white;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+}
+header {
+    padding:0px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-style: solid white;
+}
+.banner {
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.emojis{
+    align-items: center;
+    display: flex;
+}
+.happy{
+    display: flex;
+}
+.sad{
+    display: flex;
+}
+.Frustrated{
+    display: flex;
+}
+.Inspired{
+    display: flex;
+}
+.Mischievious{
+    display: flex;
+}
+.Annoyed{
+    display: flex;
+}
+.Hungry{
+    display: flex;
+}
+.Confident{
+    display: flex;
+}
 #happy {
     height: 100px;
     width: auto;
@@ -10,3 +71,58 @@
 .emoji {
     list-style: square;
 }
+
+#heart {
+    color: grey;
+    font-size: 20px;
+  }
+  #heart.red {
+    color: rgb(0, 21, 255);
+  }
+  :root {
+    --content-size: 10rem;
+    --font-size: 8rem;
+ }
+    .animated {
+        animation: 10s linear;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: calc(0px - var(--content-size));
+    font-size: var(--font-size);
+    transform-origin: center;
+    }
+    .animated:after {
+        content: “:smile_cat:”;
+    }
+ @keyframes rollIn {
+        0% {
+            transform:translate(-2vw,50vh) rotate(0deg) rotateX(0deg); filter:blur(5px) hue-rotate(360deg); ;
+        }
+        25% {
+            transform: translate(25vw, calc(100vh - var(--content-size))) rotate(200deg) rotateX(0deg);filter:blur(0px) hue-rotate(210deg);font-size: var(--font-size);
+        }
+        100% {
+            transform: translate(calc(100vw + var(--content-size)), 40vh) rotate(800deg) ;filter:blur(1px) hue-rotate(3600 deg);
+        }
+    }
+    .rollIn {
+        -webkit-animation-name: rollIn;
+        animation-name: rollIn;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

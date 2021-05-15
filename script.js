@@ -36,3 +36,4 @@ function renderToScreen (memeData) {
 
 document.addEventListener("DOMContentLoaded", init);
 // let url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=1&q=`;
+
