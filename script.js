@@ -2,7 +2,7 @@ let APIKEY = "ep8j72PvIfJJLKq5p8x7pvmvoxyqMcby";
 var displayEl = document.getElementById("display")
 
 function searchImg (emotion) {
-    fetch ("http://api.giphy.com/v1/gifs/random?api_key=ep8j72PvIfJJLKq5p8x7pvmvoxyqMcby&tag=" + emotion )
+    fetch ("https://api.giphy.com/v1/gifs/random?api_key=ep8j72PvIfJJLKq5p8x7pvmvoxyqMcby&tag=" + emotion )
         .then(function(response){
             return response.json()
         })
