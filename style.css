@@ -93,7 +93,7 @@ header {
     transform-origin: center;
     }
     .animated:after {
-        content: “:smile_cat:”;
+        content: "😃";
     }
  @keyframes rollIn {
         0% {
